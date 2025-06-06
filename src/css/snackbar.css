@@ -1,0 +1,78 @@
+.form {
+  width: 360px;
+}
+
+.form label,
+.form legend,
+.form input {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form .input-delay {
+  margin-bottom: 16px;
+}
+
+.input-delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form input[name='delay'] {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  max-width: 360px;
+  height: 40px;
+}
+
+.form input:focus {
+  border: 1px solid #4e75ff;
+  outline: none;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  max-width: 360px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+fieldset input[name='state'] {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+.form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  border-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 250ms linear;
+}
+
+.form button:hover {
+  background-color: #6c8cff;
+}
